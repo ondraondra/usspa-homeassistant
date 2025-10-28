@@ -1,15 +1,22 @@
 name: HACS Validation
+<<<<<<< HEAD
 
 on:
   push:
   pull_request:
 
+=======
+on: { push: {}, pull_request: {} }
+>>>>>>> 03ecd32 (v0.7.3: mapping + icons + visibility improvements)
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+<<<<<<< HEAD
 
+=======
+>>>>>>> 03ecd32 (v0.7.3: mapping + icons + visibility improvements)
       - name: HACS validation
         uses: hacs/action@main
         with:

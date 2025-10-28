@@ -6,25 +6,25 @@
         "title": "Připojit USSPA",
         "description": "Zadejte sériové číslo a heslo",
         "data": {
-          "name": "Název (volitelné)",
           "serial": "Sériové číslo",
           "password": "Heslo",
+          "name": "Název (volitelné)",
           "base_url": "Základní URL"
         }
       }
-    },
-    "error": {
-      "cannot_connect": "Nelze se připojit nebo neplatné údaje"
     },
     "options": {
       "step": {
         "init": {
           "title": "Možnosti USSPA",
           "data": {
-            "scan_interval": "Interval dotazování (vteřiny)"
+            "scan_interval": "Interval dotazování (sekundy)"
           }
         }
       }
+    },
+    "error": {
+      "cannot_connect": "Nelze se připojit nebo neplatné údaje"
     }
   }
 }

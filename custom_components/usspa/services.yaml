@@ -1,11 +1,1 @@
-
-send_command:
-  name: Send raw command
-  description: Send a raw USSPA command string (e.g., "SetLight1;Light1,1").
-  fields:
-    command:
-      description: Command string to send after "SN:<serial>;Cmd,"
-      example: "SetLight1;Light1,1"
-      required: true
-      selector:
-        text:
+# reserved for future services

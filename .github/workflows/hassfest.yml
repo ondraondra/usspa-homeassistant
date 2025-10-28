@@ -1,9 +1,13 @@
 name: Hassfest Validation
+<<<<<<< HEAD
 
 on:
   push:
   pull_request:
 
+=======
+on: { push: {}, pull_request: {} }
+>>>>>>> 03ecd32 (v0.7.3: mapping + icons + visibility improvements)
 jobs:
   hassfest:
     runs-on: ubuntu-latest

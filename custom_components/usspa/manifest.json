@@ -1,7 +1,7 @@
 {
   "domain": "usspa",
   "name": "USSPA",
-  "version": "0.7.1",
+  "version": "0.7.3",
   "documentation": "https://github.com/ondraondra/usspa-homeassistant",
   "issue_tracker": "https://github.com/ondraondra/usspa-homeassistant/issues",
   "requirements": [
