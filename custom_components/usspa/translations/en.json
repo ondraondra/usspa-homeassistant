@@ -1,0 +1,30 @@
+{
+  "title": "USSPA",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to USSPA",
+        "description": "Enter your spa serial and password",
+        "data": {
+          "name": "Name (optional)",
+          "serial": "Serial",
+          "password": "Password",
+          "base_url": "Base URL"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect or invalid credentials"
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "USSPA options",
+          "data": {
+            "scan_interval": "Polling interval (seconds)"
+          }
+        }
+      }
+    }
+  }
+}

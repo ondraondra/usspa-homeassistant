@@ -1,0 +1,20 @@
+{
+  "domain": "usspa",
+  "name": "USSPA",
+  "version": "0.7.1",
+  "documentation": "https://github.com/ondraondra/usspa-homeassistant",
+  "issue_tracker": "https://github.com/ondraondra/usspa-homeassistant/issues",
+  "requirements": [
+    "requests>=2.31.0"
+  ],
+  "codeowners": [
+    "@ondraondra"
+  ],
+  "iot_class": "cloud_polling",
+  "integration_type": "hub",
+  "loggers": [
+    "custom_components.usspa"
+  ],
+  "config_flow": true,
+  "homeassistant": "2024.6.0"
+}

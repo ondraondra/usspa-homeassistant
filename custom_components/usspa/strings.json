@@ -1,0 +1,9 @@
+{
+  "title": "USSPA",
+  "services": {
+    "send_command": {
+      "name": "Send raw command",
+      "description": "Send a raw USSPA command string."
+    }
+  }
+}
