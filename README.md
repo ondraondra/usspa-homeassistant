@@ -31,3 +31,16 @@ Home Assistant integration to monitor and control USSPA hot tubs via the cloud e
 - Credentials are stored in Home Assistant as config entries.
 - No telemetry or analytics; only the USSPA cloud is contacted to perform actions and polling.
 
+## 🧪 v0.7.3 – Mapping & Icons Update (Unofficial)
+
+> This integration uses a reverse-engineered private API of USSPA mobile app. Use at your own risk. No affiliation with USSPA — no warranty.
+
+**Changes in 0.7.3:**
+- Central mapping table for all entities (platform, device_class, unit, icon, defaults)
+- Six primary entities are visible by default:
+  - Water Temperature, Stream Speed, Bubbles, Heat Blocking, Setpoint, Light
+- All previous entities now enabled but hidden (diagnostic)
+- Unknown keys stay disabled by default
+- Runtime fields auto-converted seconds → hours
+- Improved icons on core controls
+- Added CI validation (HACS + Hassfest)
